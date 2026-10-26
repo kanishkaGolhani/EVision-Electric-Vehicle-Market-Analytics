@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EV Market Performance & Insights</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 24px;
+            background: #f4f7fb;
+            color: #263449;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #23395d;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #64748b;
+        }
+
+        .section {
+            max-width: 1400px;
+            margin: 0 auto 35px;
+        }
+
+        .section h2 {
+            color: #23395d;
+            margin-bottom: 8px;
+        }
+
+        .section-description {
+            color: #64748b;
+            margin-bottom: 18px;
+        }
+
+        .dashboard-card {
+            background: #ffffff;
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        .tableauPlaceholder {
+            width: 100%;
+            position: relative;
+        }
+
+        .tableauViz {
+            width: 100% !important;
+        }
+
+        footer {
+            text-align: center;
+            color: #64748b;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+
+            .dashboard-card {
+                padding: 6px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            .section h2 {
+                font-size: 21px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Electric Vehicle (EV) Market Performance &amp; Insights</h1>
+        <p>Electric Mobility Data Analytics and Visualization</p>
+    </header>
+
+    <!-- SECTION 1: EV DASHBOARD -->
+    <section class="section">
+        <h2>1. EV Market Dashboard</h2>
+        <p class="section-description">
+            Explore EV manufacturers, market trends,
+            registrations and performance insights.
+        </p>
+
+        <div class="dashboard-card">
+            <div class="tableauPlaceholder" id="evDashboard">
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url"
+                           value="https://public.tableau.com/" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name"
+                           value="EVMarketProject/Dashboard1" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="static_image"
+                           value="https://public.tableau.com/static/images/EV/EVMarketProject/Dashboard1/1.png" />
+                    <param name="animate_transition" value="yes" />
+                    <param name="display_static_image" value="yes" />
+                    <param name="display_spinner" value="yes" />
+                    <param name="display_overlay" value="yes" />
+                    <param name="display_count" value="yes" />
+                    <param name="language" value="en-US" />
+                    <param name="filter" value="publish=yes" />
+                </object>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: EV STORY -->
+    <section class="section">
+        <h2>2. EV Market Story</h2>
+        <p class="section-description">
+            Navigate through the story to understand
+            electric vehicle market performance and trends.
+        </p>
+
+        <div class="dashboard-card">
+            <div class="tableauPlaceholder" id="evStory">
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url"
+                           value="https://public.tableau.com/" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name"
+                           value="EVMarketProject/Story1" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="static_image"
+                           value="https://public.tableau.com/static/images/EV/EVMarketProject/Story1/1.png" />
+                    <param name="animate_transition" value="yes" />
+                    <param name="display_static_image" value="yes" />
+                    <param name="display_spinner" value="yes" />
+                    <param name="display_overlay" value="yes" />
+                    <param name="display_count" value="yes" />
+                    <param name="language" value="en-US" />
+                    <param name="filter" value="publish=yes" />
+                </object>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        EV Market Analytics Project | Powered by Tableau Public
+    </footer>
+
+    <script>
+        function loadTableauViz(containerId, heightRatio, minHeight) {
+            const container = document.getElementById(containerId);
+            const viz = container.querySelector("object");
+
+            function setSize() {
+                const width = container.clientWidth;
+                viz.style.width = width + "px";
+                viz.style.height =
+                    Math.max(minHeight, width * heightRatio) + "px";
+            }
+
+            setSize();
+
+            const script = document.createElement("script");
+            script.src =
+                "https://public.tableau.com/javascripts/api/viz_v1.js";
+
+            viz.parentNode.insertBefore(script, viz);
+
+            window.addEventListener("resize", setSize);
+        }
+
+        loadTableauViz("evDashboard", 0.83, 827);
+        loadTableauViz("evStory", 0.75, 800);
+    </script>
+
+</body>
+</html>
