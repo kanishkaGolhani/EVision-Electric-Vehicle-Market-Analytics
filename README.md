@@ -1,57 +1,119 @@
-# ⚡ EVision – Electric Vehicle Market Analytics
+# ⚡ EVision – Electric Vehicle Market Analytics Dashboard
 
-## 📌 Project Overview
-
-EVision is a Tableau-based data analytics project focused on analyzing the Electric Vehicle (EV) market.
-
-The project explores EV market performance, trends, and insights through interactive visualizations. It uses Tableau dashboards and a story to present the analysis in an easy-to-understand format.
-
-## 🎯 Project Objectives
-
-- Analyze electric vehicle market trends.
-- Explore EV market performance through visualizations.
-- Identify important insights from EV data.
-- Use interactive filters for dynamic analysis.
-- Present findings through a Tableau dashboard and story.
-
-## 🛠️ Tools & Technologies
-
-- Tableau Public
-- Data Visualization
-- Data Analysis
-- Calculated Fields
-- Interactive Filters
-
-## 📊 Live Dashboard
-
-Explore the interactive EV Market Analytics dashboard on Tableau Public.
-
-[![EV Market Dashboard](https://public.tableau.com/static/images/EV/EVMarketProject/Dashboard1/1.png)](https://public.tableau.com/views/EVMarketProject/Dashboard1)
-
-### 🔗 [Click Here to View the Live Interactive Dashboard](https://public.tableau.com/views/EVMarketProject/Dashboard1)
-
-## 📖 Tableau Story
-
-The Tableau Story presents the EV market analysis through a sequence of visualizations, helping users understand the key findings and insights.
-
-[🔗 View Tableau Story](https://public.tableau.com/views/EVMarketProject/Story1)
-
-## 🔍 Key Features
-
-- Interactive data visualizations
-- EV market performance analysis
-- Dynamic filters for data exploration
-- Calculated fields for customized analysis
-- Tableau Story for presenting insights
-
-## 📈 Project Insights
-
-This project provides a visual understanding of the electric vehicle market. The interactive dashboard allows users to explore market trends and analyze the data through different visual perspectives.
-
-## 🚀 Project Repository
-
-[GitHub Repository – EVision Electric Vehicle Market Analytics](https://github.com/kanishkaGolhani/EVision-Electric-Vehicle-Market-Analytics)
+> An interactive Electric Vehicle (EV) market analytics project built using Tableau Public. It explores EV market performance, vehicle distribution, market trends, and key insights through interactive dashboards and a comprehensive Tableau Story.
 
 ---
 
-⭐ If you find this project useful, feel free to star the repository!
+## 🌐 Live Interactive Dashboard
+
+👉 **[Open the Live EV Market Dashboard](https://public.tableau.com/views/EVMarketProject/Dashboard1)**
+
+Explore the interactive Tableau dashboard to understand electric vehicle market performance, trends, and insights.
+
+---
+
+## 🎯 Project Objective
+
+The electric vehicle industry is experiencing rapid growth due to increasing environmental awareness, government initiatives, advancements in battery technology, and the growing demand for sustainable transportation.
+
+This project transforms EV market data into interactive visualizations to help explore questions such as:
+
+- How is the electric vehicle market performing?
+- What trends can be identified in the EV industry?
+- How are electric vehicles distributed across different categories?
+- What insights can be extracted from EV market data?
+- How can interactive filters help users explore the market?
+
+---
+
+## ✨ Key Dashboard Features
+
+This project includes **2 interactive Tableau dashboards and 1 Tableau Story**.
+
+### 1. EV Market Performance & Insights
+
+- Interactive visualization of EV market performance.
+- Exploration of electric vehicle market trends.
+- Analysis of key market indicators.
+- Interactive filters for exploring the data.
+
+### 2. EV Market Analysis
+
+- Additional visual analysis of the electric vehicle market.
+- Exploration of EV-related trends and patterns.
+- Comparison of relevant market indicators.
+- Interactive data exploration.
+
+### 3. EV Market Analytics Story
+
+- A comprehensive Tableau Story presenting EV market insights.
+- Navigate through story points to explore different aspects of the analysis.
+- Understand the key findings through a structured visual presentation.
+- Interactive storytelling for a clear presentation of insights.
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Category | Tool | Purpose |
+|---|---|---|
+| Data Visualization | Tableau Public | Building interactive dashboards and story |
+| Data Source | CSV / Excel | Electric Vehicle Market Dataset |
+| Data Analysis | Tableau | Exploring EV market trends and insights |
+| Interactive Filters | Tableau | Dynamic data exploration |
+| Calculated Fields | Tableau | Creating custom metrics and analysis |
+| Version Control | Git & GitHub | Repository management |
+
+---
+
+## 📁 Dataset
+
+**Electric Vehicle Market Dataset**
+
+The dataset contains information related to the electric vehicle market.
+
+The analysis explores available data fields to understand EV market performance, distribution, and trends.
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kanishkaGolhani/EVision-Electric-Vehicle-Market-Analytics.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd EVision-Electric-Vehicle-Market-Analytics
+```
+
+### 3. Explore the project
+
+Open the project files and Tableau workbook to explore the analysis.
+
+The interactive dashboard is available through Tableau Public.
+
+---
+
+## 🌍 Live Dashboard
+
+This project is published on Tableau Public.
+
+👉 **[Visit the Live EV Market Dashboard](https://public.tableau.com/views/EVMarketProject/Dashboard1)**
+
+---
+
+## 👩‍💻 Author
+
+**Kanishka Golhani**
+
+Electric Vehicle Market Analytics & Visualization Project
+
+---
+
+## 📌 Note
+
+This project is intended for educational and data visualization purposes. The dashboards present insights based on the available dataset and are not intended to provide financial, investment, or policy-making advice.
